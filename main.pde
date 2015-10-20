@@ -1,6 +1,14 @@
 // @revC_Rain
 
-void rin(float posX, float posY, float size) {
+void setup() {
+  size(480, 480);
+}
+
+void draw() {
+  rin(240, 240, 1);
+}
+
+void rin(float posX,float posY, float size) {
   pushMatrix();
   translate(posX - 240, posY - 240);
   scale(size);
